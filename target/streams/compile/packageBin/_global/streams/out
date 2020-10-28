@@ -1,13 +1,81 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\udbha\Documents\TextTokenizing\target\scala-2.12\texttokenizing_2.12-1.0.jar ...[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	csv[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\udbha\Documents\TextTokenizing\target\scala-2.12\classes\csv[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	csv\PittsburghSep22_2020.txt[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\udbha\Documents\TextTokenizing\target\scala-2.12\classes\csv\PittsburghSep22_2020.txt[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	main[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\udbha\Documents\TextTokenizing\target\scala-2.12\classes\main[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	main\Start$.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\udbha\Documents\TextTokenizing\target\scala-2.12\classes\main\Start$.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	main\Start.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\udbha\Documents\TextTokenizing\target\scala-2.12\classes\main\Start.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J
+[debug] Packaging C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\tokenizing_text_in_spark_2.12-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	csv
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv
+[debug] 	csv\BattleCreekDec19_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\BattleCreekDec19_2019.txt
+[debug] 	csv\BemidjiSep18_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\BemidjiSep18_2020.txt
+[debug] 	csv\CharlestonFeb28_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\CharlestonFeb28_2020.txt
+[debug] 	csv\CharlotteMar2_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\CharlotteMar2_2020.txt
+[debug] 	csv\CincinnatiAug1_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\CincinnatiAug1_2019.txt
+[debug] 	csv\ColoradorSpringsFeb20_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\ColoradorSpringsFeb20_2020.txt
+[debug] 	csv\DallasOct17_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\DallasOct17_2019.txt
+[debug] 	csv\DesMoinesJan30_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\DesMoinesJan30_2020.txt
+[debug] 	csv\FayettevilleSep19_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\FayettevilleSep19_2020.txt
+[debug] 	csv\FayettevilleSep9_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\FayettevilleSep9_2019.txt
+[debug] 	csv\FreelandSep10_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\FreelandSep10_2020.txt
+[debug] 	csv\GreenvilleJul17_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\GreenvilleJul17_2019.txt
+[debug] 	csv\HendersonSep13_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\HendersonSep13_2020.txt
+[debug] 	csv\HersheyDec10_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\HersheyDec10_2019.txt
+[debug] 	csv\LasVegasFeb21_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\LasVegasFeb21_2020.txt
+[debug] 	csv\LatrobeSep3_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\LatrobeSep3_2020.txt
+[debug] 	csv\LexingtonNov4_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\LexingtonNov4_2019.txt
+[debug] 	csv\MilwaukeeJan14_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\MilwaukeeJan14_2020.txt
+[debug] 	csv\MindenSep12_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\MindenSep12_2020.txt
+[debug] 	csv\MinneapolisOct10_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\MinneapolisOct10_2019.txt
+[debug] 	csv\MosineeSep17_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\MosineeSep17_2020.txt
+[debug] 	csv\NewHampshireAug15_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\NewHampshireAug15_2019.txt
+[debug] 	csv\NewHampshireAug28_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\NewHampshireAug28_2020.txt
+[debug] 	csv\NewHampshireFeb10_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\NewHampshireFeb10_2020.txt
+[debug] 	csv\NewMexicoSep16_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\NewMexicoSep16_2019.txt
+[debug] 	csv\OhioSep21_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\OhioSep21_2020.txt
+[debug] 	csv\PhoenixFeb19_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\PhoenixFeb19_2020.txt
+[debug] 	csv\PittsburghSep22_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\PittsburghSep22_2020.txt
+[debug] 	csv\TexasSep23_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\TexasSep23_2019.txt
+[debug] 	csv\ToledoJan9_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\ToledoJan9_2020.txt
+[debug] 	csv\TulsaJun20_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\TulsaJun20_2020.txt
+[debug] 	csv\TupeloNov1_2019.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\TupeloNov1_2019.txt
+[debug] 	csv\WildwoodJan28_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\WildwoodJan28_2020.txt
+[debug] 	csv\Winston-SalemSep8_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\Winston-SalemSep8_2020.txt
+[debug] 	csv\YumaAug18_2020.txt
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\csv\YumaAug18_2020.txt
+[debug] 	main
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\main
+[debug] 	main\Start$.class
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\main\Start$.class
+[debug] 	main\Start.class
+[debug] 	  C:\Users\udbha\Downloads\Tokenizing-Text-in-Spark-main\target\scala-2.12\classes\main\Start.class
+[debug] Done packaging.
