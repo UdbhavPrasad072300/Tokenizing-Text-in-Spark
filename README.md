@@ -1,6 +1,8 @@
 # Tokenizing-Text-in-Spark
 Spark 3 in Scala to Tokenize Large Quantities of Text
 
+Application Tokenizes a list of Donald Trump's Rally Transcripts
+
 ## Packaging into .jar
 ```
 sbt package
