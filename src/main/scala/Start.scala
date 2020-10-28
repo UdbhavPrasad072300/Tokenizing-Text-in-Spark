@@ -16,7 +16,7 @@ object Start {
 
     import spark.implicits._
 
-    val df:DataFrame = spark.read.text("src/main/resources/csv/PittsburghSep22_2020.txt")
+    val df:DataFrame = spark.read.text("src/main/resources/csv/*.txt")
 
     df.printSchema()
     df.show(false)

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TextTokenizing.iml" filepath="$PROJECT_DIR$/.idea/modules/TextTokenizing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TextTokenizing-build.iml" filepath="$PROJECT_DIR$/.idea/modules/TextTokenizing-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tokenizing_Text_in_Spark.iml" filepath="$PROJECT_DIR$/.idea/modules/Tokenizing_Text_in_Spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tokenizing_Text_in_Spark-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Tokenizing_Text_in_Spark-build.iml" />
     </modules>
   </component>
 </project>
