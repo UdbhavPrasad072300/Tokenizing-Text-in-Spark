@@ -4,7 +4,8 @@ import org.apache.spark.sql.{SparkSession, DataFrame}
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
-
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.Column
 import org.apache.spark.ml.feature.Tokenizer
 
 object Start {
@@ -17,18 +18,23 @@ object Start {
     import spark.implicits._
 
     val df:DataFrame = spark.read.text("src/main/resources/csv/*.txt")
-
     df.printSchema()
-    df.show(false)
+    df.show()
 
     val df2 = df.map(line => line.toString()).flatMap(line => line.split(" "))
 
-    df2.show()
+    val tokenizer = new Tokenizer().setInputCol("value").setOutputCol("words")
+    val tokenized = tokenizer.transform(df2)
 
-    df2.write.csv("output/tokenized.csv")
+    val output = tokenized.drop("value")
+
+    def stringify(c: Column) = concat(concat_ws(",", c))
+
+    output.show()
+
+    output.withColumn("words", stringify($"words")).write.csv("output/tokenized.csv")
 
     println("Program has Finished")
-
     spark.stop()
   }
 }
